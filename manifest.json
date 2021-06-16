@@ -1,0 +1,21 @@
+{
+    "manifest_version":1,
+    "version":1,
+    "type":"APP",
+    "name":{
+        "en":"Freezing Subtable's Title and Column",
+        "zh":"固定表格的标题行和列",
+        "ja":"凍結サブテーブルの行と列"
+    },
+    "description":{
+        "en":"The Plugin is used to freeze the specified columns and title of subtable.",
+        "zh":"本插件用来固定表格的标题与指定列。",
+        "ja":"このプラグインは、サブテーブルのタイトルと指定された列を凍結します。"
+    },
+    "icon":"source/images/icon.png",
+    "desktop":{
+        "js":["3rd_parties/jquery-3.5.1.min.js","3rd_parties/stickyfill-2.1.0.min.js","dist/desktop.js"],
+        "css":["source/css/desktop.css"]
+    }
+   
+}

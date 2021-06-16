@@ -1,0 +1,21 @@
+.tdClass{
+    position: "sticky" ;
+          left: 0 ;
+          z-index: 1 ;
+          color: "white";
+          background-color: "#f5f5f5" ;
+}
+.firstThclass{
+    position: "sticky" ; left: 0 ; z-index: 2 
+}
+.thClass{
+    position: "sticky" ; top: 0 ;z-index: 1;
+}
+.dummyColumn{
+    min-width:17px;
+    border: 0px;
+}
+.dummyRow{
+    height: 16px;
+    border: 0px;
+}

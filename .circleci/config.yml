@@ -1,0 +1,20 @@
+version: 2
+
+workflows:
+  version: 2
+  License Finder and Yamory Check:
+    jobs:
+       - test-import licenses check
+
+jobs:
+  bulletin-import licenses check:
+    docker:
+      - image: licensefinder/license_finder
+    steps:
+      - checkout
+
+      - run:
+          name: Check test-import licenses
+          shell: /bin/bash --login -eo pipefail
+          command: |
+            license_finder --decisions-file=license_finder/doc/decisions.yml
